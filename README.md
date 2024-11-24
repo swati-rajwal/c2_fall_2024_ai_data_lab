@@ -47,3 +47,9 @@ To make it uniform, an annotation guideline was first prepared, and all human an
 - **logging_steps**: `10` - Logs every 10 steps during training.
 - **save_total_limit**: `1` - Retains only the most recent checkpoint.
 - **load_best_model_at_end**: `True` - Loads the best model at the end of training.
+
+# Results
+<p align="center">
+  <img src="output/C_Pro_anti_stances.png" width="651" alt="Experimental Task Design">
+</p>
+<p align="center"><b>Figure 4: Top 10 Outlets by Pro- and Anti- Stance (Log Scale).</b></p>
