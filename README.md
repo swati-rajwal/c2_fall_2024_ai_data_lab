@@ -3,9 +3,10 @@
 <h5 align="center">
 
 <p align="center">
-  <img src="output/A_follower_distributions.png" width="651" alt="Experimental Task Design">
+  <img src="output/Picture1.png" width="45%" alt="Image 1">
+  <img src="output/A_follower_distributions.png" width="45.9999%" alt="Image 2">
 </p>
-<p align="center"><b>Figure 1: Number of followers of various news outlets across multiple social media.</b></p>
+<p align="center"><b>Figure 1: (a) News outlets considered in this study; (b) Number of followers of various news outlets across multiple social media.</b></p>
 
 # 👩‍💻Human Annotations
 To make it uniform, an annotation guideline was first prepared, and all human annotators followed it. You can read it [here](https://github.com/swati-rajwal/c2_fall_2024_ai_data_lab/blob/main/docs/Annotator%20Guidelines%20for%20Labeling%20Political%20Tweets%20and%20Articles.pdf).
