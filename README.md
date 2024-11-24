@@ -32,7 +32,7 @@ To make it uniform, an annotation guideline was first prepared, and all human an
 <p align="center">
   <img src="output/B_roberta_results.svg" width="651" alt="Experimental Task Design">
 </p>
-<p align="center"><b>Figure 3: RoBERTa results on gold standard for tweets only.</b></p>
+<p align="center"><b>Figure 3: RoBERTa results on gold standard for tweets (blue) and extracted articles (yellow).</b></p>
 
 ## Training Parameters
 
@@ -40,16 +40,10 @@ To make it uniform, an annotation guideline was first prepared, and all human an
 - **eval_strategy**: `epoch` - Evaluates the model at the end of each epoch.
 - **learning_rate**: `1e-5` - Learning rate for the optimizer.
 - **per_device_train_batch_size**: `16` - Batch size per device (e.g., GPU) for training.
-- **num_train_epochs**: `25` - Total number of training epochs.
+- **num_train_epochs**: `15` - Total number of training epochs.
 - **weight_decay**: `0.01` - Weight decay to prevent overfitting.
 - **save_strategy**: `epoch` - Saves checkpoints at the end of each epoch.
 - **logging_dir**: `./logs/post_body` - Directory for logs.
 - **logging_steps**: `10` - Logs every 10 steps during training.
 - **save_total_limit**: `1` - Retains only the most recent checkpoint.
 - **load_best_model_at_end**: `True` - Loads the best model at the end of training.
-
-<p align="center">
-  <img src="output/C_roberta_results.svg" width="651" alt="Experimental Task Design">
-</p>
-<p align="center"><b>Figure 4: RoBERTa results on gold standard for extracted articles only.</b></p>
-
