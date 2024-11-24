@@ -8,21 +8,8 @@
 </p>
 <p align="center"><b>Figure 1: (a) News outlets considered in this study; (b) Number of followers of various news outlets across multiple social media.</b></p>
 
-# 👩‍💻Human Annotations
+# 👩‍💻Human Annotations and Agreements
 To make it uniform, an annotation guideline was first prepared, and all human annotators followed it. You can read it [here](https://github.com/swati-rajwal/c2_fall_2024_ai_data_lab/blob/main/docs/Annotator%20Guidelines%20for%20Labeling%20Political%20Tweets%20and%20Articles.pdf).
-1. The dataset was labeled to analyze the sentiment and political focus of tweets and their associated article content. The primary labels assigned include:
-  * Pro-Republican: Indicates that the content positively supports Republicans.
-  * Pro-Democrats: Indicates that the content positively supports Democrats.
-  * Con-Republican: Highlights content critical of Republicans.
-  * Con-Democrats: Highlights content critical of Democrats.
-  * Neither Republican nor Democrat: This applies to political content that does not specifically relate to either party.
-  * Not Relevant: Marks content unrelated to politics.
-    
-2. The annotation focused on two sections:
-  * Tweet Text: The sentiment and political inclination were determined from the post's text.
-  * Article Content: Sentiment and political focus were assessed from linked articles.
-
-# 🤝Annotations Agreements
 <p align="center">
   <img src="output/D_iaa.png" width="651" alt="agreement level across annotating columns">
 </p>
